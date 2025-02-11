@@ -51,3 +51,15 @@ git remote -v
 ```
 git remote remove
 ```
+
+## `wq`
+- 입력 후 나가기
+
+## `q`
+- 나가기
+
+## `git push origin master`
+- github에 수정, 스냅샷 찍은 최종파일을 올리다.
+
+## `git pull origin master`
+- github으로부터 최신 파일을 불러오다.
