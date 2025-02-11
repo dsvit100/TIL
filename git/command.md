@@ -43,6 +43,7 @@ git remote add {remote_name} {remote_url}
 git remote -v
 ```
 - 원격저장소 삭제
+    - git 과 로컬을 연결해주는 선(git에서 부여받은 url)이 삭제됨
 ```
 git remote remove
 ```
