@@ -21,5 +21,11 @@ git add {file_name/directory_name}
 git add . => 현재 나의 위치를 기준으로 모든 파일과 폴더
 ```
 
-## `git commit`
+## `git commit` + -m + "인덱스메시지"
 - staging area에 있는 변경사항을 커밋하여 스냅샷 생성
+
+## `git log`
+- 커밋의 히스토리를 조회
+    - option
+        - `--oneline`
+        - `--graph` 협업 타임라인 확인에 유용
