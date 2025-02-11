@@ -39,9 +39,11 @@ git add . => 현재 나의 위치를 기준으로 모든 파일과 폴더
 ```
 git remote add {remote_name} {remote_url}
 ```
-    - 원격저장소 확인
-    git remote -v
-
-    - 원격저장소 삭제
-    git remote remove
-
+- 원격저장소 확인
+```
+git remote -v
+```
+- 원격저장소 삭제
+```
+git remote remove
+```
