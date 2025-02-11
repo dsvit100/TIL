@@ -29,3 +29,22 @@ git add . => 현재 나의 위치를 기준으로 모든 파일과 폴더
     - option
         - `--oneline`
         - `--graph` 협업 타임라인 확인에 유용
+
+## `git remote`
+    - 원격저장소 관리 명령어
+    
+    - 원격저장소 추가
+    ```
+    git remote add {remote_name} {remote_url}
+    ```
+
+    - 원격저장소 확인
+    ```
+    git remote -v
+    ```
+
+    - 원격저장소 삭제
+    ```
+    git remote remove
+    ```
+
