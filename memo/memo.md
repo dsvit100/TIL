@@ -34,7 +34,7 @@
 - PR페이지 작업할 폴더 생성
 - 원하는 템플릿을 다운로드(대부분 zip파일) 후 압축풀기
 - 압축 푼 파일을 PR작업 폴더로 끌어서 이동(폴더째 옮기기X)
-- git에 새 저장소(repository) 생성
+- git에 새 저장소(repository) 생성 - 생성 시 저장소 이름을 [ git아이디.github.io ] 로 설정
 - git과 로컬을 연결하기 위해 원격저장소 만들기 `git remote add` + url
     - 수정하지 않은 채로 바로 push 불가!
     - 다운로드 받은 파일 그대로(수정없이) 올리는 경우 add - commit - push 해 줘야만 git에 원격저장소가 만들어짐
