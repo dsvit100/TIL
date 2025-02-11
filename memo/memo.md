@@ -1,7 +1,9 @@
 ## 250211 화
 
+
 ### 1. git book
 - git 파일 내 basic.md, command.md 참고
+
 
 ### 2. github page (PR페이지 만들기 - 도메인은 계정 당 하나만 가능)
 > 참고사이트: [star bootstrap](https://startbootstrap.com/themes)
@@ -24,4 +26,7 @@
         끌어올 파일이 없으므로 open git bash here 통해서 터미널 열어준 다음
         clone 작업해야함.
 
-
+- 작업하다 충돌된 경우
+    - 가장 최근 파일로 pull
+    - 모두 지우고 새로 쓰기 / 선택하기
+    - current - 내것 / incoming - 외부의 것 / both - 둘 다 합치기 

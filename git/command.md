@@ -8,6 +8,9 @@
 
 ## `git clone` + url + 설정이름
 - 현재 디렉토리에 설정한 이름으로 원격저장소 폴더를 복제
+    - 다른 사람의 파일을 clone한 경우, `.git`파일까지 가지고 옴
+    - 따라서 따로 remote 추가할 필요 X
+    - 작업 환경이 원파일을 작업하였던 환경값을 따라옴
 
 ## `git status`
 - 현재 git의 상태를 확인
@@ -33,6 +36,8 @@ git add . => 현재 나의 위치를 기준으로 모든 파일과 폴더
 ## `git remote`
 
 ### **원격저장소 관리 명령어**
+#### - git 과 로컬을 연결해주는 선(git에서 부여받은 url) (git과 파일, 폴더에는 영향X)
+
 - 원격저장소 추가
 
 ```
@@ -43,8 +48,6 @@ git remote add {remote_name} {remote_url}
 git remote -v
 ```
 - 원격저장소 삭제
-    - git 과 로컬을 연결해주는 선(git에서 부여받은 url)이 삭제됨
-    (git과 파일, 폴더에는 영향X)
 ```
 git remote remove
 ```
