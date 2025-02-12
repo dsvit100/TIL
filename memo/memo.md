@@ -78,3 +78,10 @@
     - fork(복제) - 로컬이 아니라 내 github에 복제됨
     - 따라서 가져올 때는 나의 github의 주소로 가져와야 함
     - 프로젝트 실행할 폴더에서 open git bash here, 내 github에서 주소 복사하여 붙여넣기 (마우스 우클릭+paste로 붙여넣기)
+    - (pull request) 내가 작업한 결과물을 상대방의 저장소에 올린다는 개념 (pr)이라고 말함.
+    - 가져온 후 파일 수정, push 하면 나의 github에 올라감
+    - fork 했던 github 폴더 - 프로젝트 들어가서 pull requests
+    - new pull request - Create pull request 하여 올리기
+- 만약 여러 사람의 결과물로 부분부분 수정을 하고 싶은 경우
+    - A의 수정을 merge 하고, B의 수정을 merge 하면 -> 충돌
+    - 충돌 해결 후 merge 하기
