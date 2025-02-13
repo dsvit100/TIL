@@ -140,3 +140,5 @@
     - 꼬인 경우 코드 실행 초기화![코드 실행 초기화](..\assets\Jupyter_reset.png)
 
 - http://gitignore.io/ : git에서 무시하고 싶은 파일 설정 사이트
+    - ![git_ignore_files](../assets/git_ignore_files.png)
+
