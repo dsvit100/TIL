@@ -21,4 +21,7 @@
 - Tracked(관리대상임)와 Untracked(관리대상이 아님)
     - Unmodified(수정하지 않음),modified(수정함), staged(커밋으로 저장소에 기록함)
     - untracked : 워킹 디렉토리에 있는 파일 중 스냅샷에도 staging Area에도 포함되지 않은 파일이다.
+    
 
+- http://gitignore.io/ : git에서 무시하고 싶은 파일 설정 사이트
+    - ![git_ignore_files](../assets/git_ignore_files.png)
