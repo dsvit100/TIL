@@ -64,7 +64,7 @@ info = {
     'phone': '010-1234-1234',
     'age': 20
 }
-```
+
 - 1. for key in dict
     - `for k in info` : key 출력
     - # 출력값: name \n location \n phone \n age
@@ -75,17 +75,17 @@ info = {
     - `for v in info.values()` : value 출력
     - # 출력값: gildong \n seoul \n 010-1234-1234 ...
 - 4. for key, value in dict.items()
-    - `for k, value in info.items()` : print(k, v) 실행, key와 value가 각 key에 따라 줄바꿈으로 출력됨
+    - `for k, value in info.items()`
+        : print(k, v) 실행, key와 value가 각 key에 따라 줄바꿈으로 출력됨
     - # 출력값: name gildong \n location seoul \n ...
 ```
 
-
----------- 2/18까지 정리
 ### break
 - 반복문을 종료시키는 키워드
 
 ### continue
 - continue 이후의 코드를 실행하지 않고 다음 반복을 진행
+    - 특정 상황에서 스킵하고 계속 진행할 때 사용
 
 ### else
 - else문은 끝까지 반복된 경우 실행됨 (break를 만나지 않은 경우 실행)

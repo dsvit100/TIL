@@ -16,3 +16,6 @@ for location in enumerate(locations):
 # (2, '부산')
 # 나온 값은 []로 묶인 list가 아닌 tuple
 ```
+- `dict(k_name='key', v_name='value')`: 딕셔너리 만들기
+-  `dir(객체)`: 해당 객체가 사용할 수 있는 모든 속성과 매소드 리스트 반환
+    - 만약 `dir('hello')`인 경우 스트링 객체가 가진 매소드 리스트 반환
